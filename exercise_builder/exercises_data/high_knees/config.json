@@ -1,0 +1,76 @@
+{
+  "name": "High Knees",
+  "description": "Rasing Knees high",
+  "muscle_groups": [
+    "Knees",
+    "Quads",
+    "Hamstrings"
+  ],
+  "key_joints": [
+    {
+      "name": "Left Knee",
+      "landmark_index": 25,
+      "feedback_messages": []
+    },
+    {
+      "name": "Right Knee",
+      "landmark_index": 26,
+      "feedback_messages": []
+    },
+    {
+      "name": "Left Hip",
+      "landmark_index": 23,
+      "feedback_messages": []
+    },
+    {
+      "name": "Right Hip",
+      "landmark_index": 24,
+      "feedback_messages": []
+    },
+    {
+      "name": "Torso Lean",
+      "landmark_index": 100,
+      "feedback_messages": []
+    },
+    {
+      "name": "Head Position",
+      "landmark_index": 101,
+      "feedback_messages": []
+    }
+  ],
+  "all_landmark_indices": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "trained": true,
+  "training_video_folder": "D:/Training/highknees",
+  "num_training_videos": 32,
+  "num_annotated_reps": 30,
+  "tracking_joint_index": 25,
+  "bilateral_joint_index": 26,
+  "threshold_auto": 135.6731371641159,
+  "deadband_auto": 16.669161577224735,
+  "start_above": false,
+  "lo": 94.00023322105407,
+  "hi": 177.34604110717774
+}

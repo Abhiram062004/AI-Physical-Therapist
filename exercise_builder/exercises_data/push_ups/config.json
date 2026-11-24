@@ -1,0 +1,49 @@
+{
+  "name": "Push ups",
+  "description": "",
+  "muscle_groups": [],
+  "key_joints": [
+    {
+      "name": "Left Elbow",
+      "landmark_index": 13,
+      "feedback_messages": []
+    }
+  ],
+  "all_landmark_indices": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "trained": true,
+  "training_video_folder": "D:/Training/pushups",
+  "num_training_videos": 5,
+  "num_annotated_reps": 26,
+  "tracking_joint_index": 13,
+  "bilateral_joint_index": 14,
+  "threshold_auto": 115.30815830230712,
+  "deadband_auto": 22.74597007751465,
+  "start_above": false,
+  "lo": 58.44323310852051,
+  "hi": 172.17308349609374,
+  "threshold_override": 115.308,
+  "deadband_override": 22.746
+}
